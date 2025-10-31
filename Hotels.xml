@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.8" Category="Luxury">
+    <Name>Shangri-La The Fort</Name>
+    <Phone>+63-2-8820-0888</Phone>
+    <Phone>+63-2-8820-0889</Phone>
+    <Address>
+      <Number>30th</Number>
+      <Street>5th Avenue, Bonifacio Global City</Street>
+      <City>Taguig</City>
+      <State>Metro Manila</State>
+      <Zip>1634</Zip>
+      <NearestAirport>Ninoy Aquino International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6" Category="Resort">
+    <Name>Crimson Resort and Spa Mactan</Name>
+    <Phone>+63-32-401-9999</Phone>
+    <Address>
+      <Number>Seascapes Resort Town</Number>
+      <Street>Buyong Road</Street>
+      <City>Lapu-Lapu</City>
+      <State>Cebu</State>
+      <Zip>6015</Zip>
+      <NearestAirport>Mactan-Cebu International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Discovery Shores Boracay</Name>
+    <Phone>+63-36-288-4500</Phone>
+    <Phone>+63-36-288-4501</Phone>
+    <Address>
+      <Number>Station 1</Number>
+      <Street>Balabag Beachfront</Street>
+      <City>Boracay</City>
+      <State>Aklan</State>
+      <Zip>5608</Zip>
+      <NearestAirport>Caticlan Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4" Category="Business">
+    <Name>Marco Polo Davao</Name>
+    <Phone>+63-82-221-0888</Phone>
+    <Address>
+      <Number>Claro M. Recto St.</Number>
+      <Street>Poblacion District</Street>
+      <City>Davao City</City>
+      <State>Davao del Sur</State>
+      <Zip>8000</Zip>
+      <NearestAirport>Francisco Bangoy International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Henann Resort Alona Beach</Name>
+    <Phone>+63-38-502-9141</Phone>
+    <Phone>+63-38-502-9142</Phone>
+    <Address>
+      <Number>Alona Beach</Number>
+      <Street>Tawala</Street>
+      <City>Panglao</City>
+      <State>Bohol</State>
+      <Zip>6340</Zip>
+      <NearestAirport>Bohol-Panglao International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5" Category="Luxury">
+    <Name>Solaire Resort and Casino</Name>
+    <Phone>+63-2-8888-8888</Phone>
+    <Address>
+      <Number>1</Number>
+      <Street>ASEANA Ave, Entertainment City</Street>
+      <City>Parañaque</City>
+      <State>Metro Manila</State>
+      <Zip>1701</Zip>
+      <NearestAirport>Ninoy Aquino International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>B Hotel Quezon City</Name>
+    <Phone>+63-2-990-5000</Phone>
+    <Address>
+      <Number>14 Scout Rallos St</Number>
+      <Street>Barangay Laging Handa</Street>
+      <City>Quezon City</City>
+      <State>Metro Manila</State>
+      <Zip>1103</Zip>
+      <NearestAirport>Ninoy Aquino International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6" Category="Boutique">
+    <Name>The Henry Hotel Cebu</Name>
+    <Phone>+63-32-520-8877</Phone>
+    <Address>
+      <Number>1</Number>
+      <Street>Acacia Street</Street>
+      <City>Cebu City</City>
+      <State>Cebu</State>
+      <Zip>6000</Zip>
+      <NearestAirport>Mactan-Cebu International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.9">
+    <Name>Amanpulo Resort</Name>
+    <Phone>+63-2-7753-3000</Phone>
+    <Address>
+      <Number>Pamalican Island</Number>
+      <Street>Cuyo Archipelago</Street>
+      <City>Palawan</City>
+      <State>Palawan</State>
+      <Zip>5318</Zip>
+      <NearestAirport>Pamalican Island Airstrip</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.2" Category="Eco-Resort">
+    <Name>The Funny Lion</Name>
+    <Phone>+63-2-553-9549</Phone>
+    <Address>
+      <Number>Sitio Jolo</Number>
+      <Street>Barangay Poblacion 5</Street>
+      <City>Coron</City>
+      <State>Palawan</State>
+      <Zip>5316</Zip>
+      <NearestAirport>Busuanga Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+</Hotels>
