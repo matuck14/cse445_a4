@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ERROR 1: Root tag should be <Hotels>, but changed to <Hotel> -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- ERROR 2: Missing required Rating attribute -->
+  <Hotel Category="Luxury">
+    <Name>Shangri-La The Fort</Name>
+    <Phone>+63-2-8820-0888</Phone>
+    <Address>
+      <Number>30th</Number>
+      <Street>5th Avenue, Bonifacio Global City</Street>
+      <City>Taguig</City>
+      <State>Metro Manila</State>
+      <Zip>1634</Zip>
+      <NearestAirport>Ninoy Aquino International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- ERROR 3: Missing Phone element -->
+  <Hotel Rating="4.6" Category="Resort">
+    <Name>Crimson Resort and Spa Mactan</Name>
+    <Address>
+      <Number>Seascapes Resort Town</Number>
+      <Street>Buyong Road</Street>
+      <City>Lapu-Lapu</City>
+      <State>Cebu</State>
+      <Zip>6015</Zip>
+      <NearestAirport>Mactan-Cebu International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- ERROR 4: Address missing closing tag -->
+  <Hotel Rating="4.7">
+    <Name>Discovery Shores Boracay</Name>
+    <Phone>+63-36-288-4500</Phone>
+    <Address>
+      <Number>Station 1</Number>
+      <Street>Balabag Beachfront</Street>
+      <City>Boracay</City>
+      <State>Aklan</State>
+      <Zip>5608</Zip>
+      <NearestAirport>Caticlan Airport</NearestAirport>
+    <!-- Missing </Address> -->
+  </Hotel>
+
+  <!-- ERROR 5: Two Name elements -->
+  <Hotel Rating="4.4" Category="Business">
+    <Name>Marco Polo Davao</Name>
+    <Name>Duplicate Name Error</Name>
+    <Phone>+63-82-221-0888</Phone>
+    <Address>
+      <Number>Claro M. Recto St.</Number>
+      <Street>Poblacion District</Street>
+      <City>Davao City</City>
+      <State>Davao del Sur</State>
+      <Zip>8000</Zip>
+      <NearestAirport>Francisco Bangoy International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+</Hotel>
