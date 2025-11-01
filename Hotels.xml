@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
+<Hotels 
+  xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Hotels.xsd">
   <Hotel Rating="4.8" Category="Luxury">
     <Name>Shangri-La The Fort</Name>
     <Phone>+63-2-8820-0888</Phone>
