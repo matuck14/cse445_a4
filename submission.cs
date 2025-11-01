@@ -8,7 +8,6 @@ namespace ConsoleApp1
 {
     public class Program
     {
-        // Replace these with your GitHub raw URLs (not Pages view URLs)
         public static string xmlURL = "https://matuck14.github.io/cse445_a4/Hotels.xml";
         public static string xmlErrorURL = "https://matuck14.github.io/cse445_a4/HotelsErrors.xml";
         public static string xsdURL = "https://matuck14.github.io/cse445_a4/Hotels.xsd";
